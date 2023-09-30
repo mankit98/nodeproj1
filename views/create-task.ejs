@@ -1,0 +1,15 @@
+<%- include('partials/header') %>
+<%- include('partials/nav') %>
+
+<div class="d-flex">
+
+    <form action="/create-task"  method="post" class="w-50">
+        <h1 class="text-white">Create Book</h1>
+        <input class="form-control mb-3" type="text" name="img" placeholder="Image Url">
+        <input class="form-control mb-3" type="text" name="heading" placeholder="Heading">
+        <input class="form-control mb-3" type="text" name="para" placeholder="Details">
+        <button class="btn btn-primary m-2">Add Book</button>
+    </form>
+</div>
+
+<%- include('partials/footer') %>

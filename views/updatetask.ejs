@@ -1,0 +1,13 @@
+<%- include('partials/header') %>
+<%- include('partials/nav') %>
+
+    <form action="/updatetask/<%= index %>"  method="post">
+        <h1>Update Task</h1>
+        <img src="<%= post.img %>" class="mb-3" width="120"  alt="">
+        <input class="form-control mb-3" type="text" name="img" value="<%= post.img%>" placeholder="Image Url">
+        <input class="form-control mb-3" type="text" name="heading" value="<%= post.heading%>" placeholder="Heading">
+        <input class="form-control mb-3" type="text" name="para" value="<%= post.para%>" placeholder="Details">
+        <button class="btn btn-primary m-2">Update Book</button>
+    </form>
+
+<%- include('partials/footer') %>

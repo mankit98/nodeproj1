@@ -1,0 +1,15 @@
+<%- include('partials/header') %>
+<%- include('partials/nav') %>
+ 
+<form class="create-product-form w-50 mt-5 p-5 bg-light align-center position-absolute top-50 start-50 translate-middle" action="/update-task/<%= index %>" method="post" >
+    <h1>Update Book</h1>
+    <img width="120" src="<%= post.img %>" class="mb-3" alt="">
+    <input class="form-control mb-3" type="text" name="img" id="" value="<%= post.img %>" placeholder="image url">
+    <input class="form-control mb-3" type="text" name="heading" value="<%= post.heading %>" id="" placeholder="heading">
+    <input class="form-control mb-3" type="text" name="para" value="<%= post.para %>" placeholder="details" />
+    <button class="btn btn-primary">Update Book</button>
+</form>
+ 
+
+  <%- include('partials/footer') %>
+

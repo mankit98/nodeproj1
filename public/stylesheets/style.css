@@ -1,0 +1,38 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url('https://bitsum.com/wp-content/uploads/dark-background-images-5561-5821-hd-wallpapers.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+a {
+  color: #00B7FF;
+}
+
+
+
+/* webkit scrollbar  */
+
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+/* ::-webkit-scrollbar-track {
+  background: #888;
+} */
+::-webkit-scrollbar-thumb {
+  background: #ea7609;
+}
+
+#firstline::-webkit-scrollbar{
+  display: none;
+}
+#secondline::-webkit-scrollbar{
+  display: none;
+}
+#thirdline::-webkit-scrollbar{
+  display: none;
+}
